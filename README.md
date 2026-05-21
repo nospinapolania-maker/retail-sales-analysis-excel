@@ -50,8 +50,8 @@ retail-sales-analysis-excel/
 
 ## 💼 Entregables de empleabilidad
 
-- Actualización de habilidades técnicas para el CV
+- Actualización de habilidades técnicas para el CV , tales como "Excel Avanzado: Tablas dinámicas, Power Query, DAX básico, análisis de inventario"
 - Publicación en LinkedIn
 - Caso de estudio para Notion
-- Documentación del proyecto en GitHub
-- Explicación de 1 minuto sobre el dashboard
+- Documentación del proyecto en el presente repositorio de GitHub
+

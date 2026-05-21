@@ -50,7 +50,19 @@ El objetivo fue dejar el archivo con una estructura más clara para análisis de
 
 ---
 
-### 3. Cambio de nombre de columnas
+### 3. Ocultamiento de columnas no utilizadas por el momento
+
+Durante la revisión del dataset se identificaron columnas que no eran necesarias para esta primera etapa de limpieza y preparación del archivo.
+
+Por esta razón, algunas columnas fueron ocultadas para facilitar el trabajo inicial, reducir la carga visual y concentrar el análisis en las variables más relevantes para las siguientes fases del proyecto.
+
+Este procedimiento no implicó eliminar definitivamente la información original. Justamente por eso se trabajó con una consulta referenciada en Power Query, lo que permitió conservar la consulta base y realizar transformaciones sobre una versión derivada del dataset.
+
+De esta manera, se mantuvo la trazabilidad del archivo original y se evitó modificar directamente la fuente de datos. Las columnas ocultas podrán retomarse más adelante si son necesarias para análisis más avanzados, como segmentación, análisis regulatorio o evaluación de tendencias por estado, marca o tipo de producto.
+
+---
+
+### 4. Cambio de nombre de columnas
 
 Se realizó el cambio de nombre de varias columnas para facilitar el entendimiento del dataset y mejorar su uso en Excel.
 
@@ -62,7 +74,7 @@ El renombramiento permitió que el dataset limpio quedara más organizado y ente
 
 ---
 
-### 4. Uso de columnas calculadas
+### 5. Uso de columnas calculadas
 
 Se crearon columnas calculadas dentro de Power Query para corregir y preparar variables necesarias para el análisis.
 
@@ -75,7 +87,7 @@ Estas columnas fueron utilizadas principalmente para:
 
 ---
 
-### 5. Corrección de datos porcentuales
+### 6. Corrección de datos porcentuales
 
 Se corrigió el formato de una columna que debía trabajarse como porcentaje.
 
@@ -85,7 +97,7 @@ Este ajuste fue importante porque los porcentajes mal formateados pueden afectar
 
 ---
 
-### 6. Construcción del orden de periodo mensual
+### 7. Construcción del orden de periodo mensual
 
 Para ordenar correctamente los periodos mensuales, se extrajeron componentes de fecha como:
 
@@ -98,7 +110,7 @@ Esto es importante porque, en análisis temporal, los meses deben visualizarse e
 
 ---
 
-### 7. Revisión de formatos
+### 8. Revisión de formatos
 
 Se revisaron formatos de fecha, texto y valores numéricos para evitar errores en el análisis.
 
@@ -112,7 +124,7 @@ La revisión incluyó:
 
 ---
 
-### 8. Preparación del dataset limpio
+### 9. Preparación del dataset limpio
 
 Después del proceso de limpieza y transformación, se generó una versión limpia del archivo con el nombre:
 

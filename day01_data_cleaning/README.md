@@ -122,14 +122,29 @@ Este archivo corresponde a la versión limpia y organizada del dataset, preparad
 
 ---
 
-## 📌 Archivos pendientes por subir
+## 🖼️ Evidencias del proceso
 
-- Capturas de evidencia.
-- Registro de limpieza, si aplica.
-- Imágenes del proceso de limpieza.
-- Evidencias del dataset limpio.
+### 1. Dataset original
+
+Vista inicial del dataset antes del proceso de limpieza.
+
+![Dataset original](images/01_dataset_original.png)
 
 ---
+
+### 2. Transformaciones en Power Query
+
+Evidencia del proceso de limpieza realizado en Power Query, incluyendo consulta referenciada, cambio de tipos, columnas quitadas, columnas renombradas y columnas calculadas.
+
+![Transformaciones en Power Query](images/02_power_query_transformaciones.png)
+
+---
+
+### 3. Dataset limpio
+
+Vista final del dataset limpio, con columnas organizadas, nombres más claros, campos auxiliares de periodo mensual y datos preparados para análisis posterior.
+
+![Dataset limpio](images/03_dataset_limpio.png)
 
 ## 🧠 Aprendizajes
 

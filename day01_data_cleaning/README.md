@@ -89,9 +89,9 @@ day01_data_cleaning/
 ├── README.md
 ├── data/
 │   ├── raw/
-│   │   └── dataset original
+│   │   └── Dataset original 
 │   └── processed/
-│       └── Dataset Limpio.xlsx
+│       └── Dataset Limpio
 ├── images/
 └── notes/
 ```

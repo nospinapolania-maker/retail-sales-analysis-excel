@@ -77,9 +77,7 @@ El propósito fue dejar una versión más organizada y confiable del archivo, li
 
 ## 🛠️ Herramientas utilizadas
 
-- Microsoft Excel
-- Power Query
-- GitHub
+- Microsoft Excel (Power Query)
 
 ---
 
